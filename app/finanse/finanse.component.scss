@@ -1,0 +1,95 @@
+div{
+    width:10rem;
+    height: 2rem;
+    background-color:gray;
+    margin-left: 20rem;
+    margin-top:4rem;
+    
+    &.kwota{
+        width:7rem;
+        margin-left:30.5rem;
+        margin-top:-2rem;
+    }
+    &.data{
+            width:7rem;
+            margin-left:38rem;
+            margin-top: -2rem;
+            background-color: gray;
+        }
+    &.uregulowane{
+        width:9rem;
+        margin-left:45.5rem;
+        margin-top:-2rem;
+        background-color: seagreen;
+    }
+    &.kwoty{
+        background-color: white;
+        width:9rem;
+        margin-left:30.5rem;
+        margin-top: -24rem;
+    }
+    &.daty{
+        background-color: white;
+        margin-left:38rem;
+        margin-top: -2rem;
+        width: 7rem;
+    }
+    &.uregul{
+        margin-left:45.4rem;
+        background-color: white;
+        margin-top: -2rem;
+        width: 7rem;
+    }
+
+}
+
+label{
+    margin-left: 0.1rem;
+    margin-top: 0.4rem;
+    color:black;
+    font-style: normal;
+
+}
+input{
+    background-color: gray;
+    width: 10rem;
+    height: 1.9rem;
+    margin-top: 0.5rem;
+    margin-left:20rem;
+    
+    &.kwota{
+        width:7rem;
+        height: 1.9rem;
+        margin-left:0.1rem;
+        margin-top:0.5rem;
+        }
+    &.data{
+        width: 7rem;
+        margin-left:0.1rem;
+        margin-top: 0.5rem;
+        height: 1.9rem;
+        background-color: gray;
+        color:white;
+        
+    }
+
+    &.uregulowane{
+        width:9rem;
+        margin-left:0.1rem;
+        margin-top:0.5rem;
+        background-color: seagreen;
+    }
+
+}
+h2{
+    margin-top:3rem;
+    text-align:center;
+}
+img{
+    &.banknot{
+        float:right;
+        height: 18rem;
+        margin: -10rem;
+        margin-right: 5rem;
+    }
+}

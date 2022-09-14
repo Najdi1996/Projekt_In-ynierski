@@ -1,0 +1,54 @@
+div{
+    &.startowa{
+        background-color: darkseagreen;
+        height: 37rem;
+        width: 106.1rem;
+    }
+    &.pomocne_linki{
+        background-color: darkolivegreen;
+        height:15rem;
+        width: 40rem;
+        margin-top: 3em;
+        margin-left: 13em;
+    }
+    &.blad{
+        background-color: darkolivegreen;
+        height:15rem;
+        width: 40rem;
+        margin-top: -15em;
+        margin-left: 55em;
+    }
+    &.napis{
+        margin-top: 2em;
+    }
+}
+img{
+    &.startowa{
+        height: 37rem;
+        width: 37rem;
+        float: right;
+        display:flex;
+        border-radius: 10%;
+    }
+}
+p{
+    text-align: center;
+    font-size: 10em;
+    padding: 0.7em;
+}
+h2{
+    font-size: 1.5em;
+    color: black;
+    padding:0.3em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+a{
+    color:black;
+    padding:0.5em;
+    margin-left: 1.5em;
+}
+span{
+    margin-left: 2em;
+    color: black;
+}

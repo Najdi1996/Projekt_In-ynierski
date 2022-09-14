@@ -1,0 +1,21 @@
+<nav>
+  <h2>Strona główna</h2>
+  <a [routerLink]="['twoje_konto']" routerLinkActive="router-link-active" >Twoje Konto</a>
+  <a [routerLink]="['pomoc']" routerLinkActive="router-link-active" >Pomoc</a>
+  <a [routerLink]="['ogloszenia']" routerLinkActive="router-link-active" >Ogłoszenia</a>
+  <a [routerLink]="['finanse']" routerLinkActive="router-link-active" >Finanse</a>
+  <h2>Spotkania</h2>
+  <a [routerLink]="['kalendarz']" routerLinkActive="router-link-active" >Twój Kalendarz</a>
+  <a [routerLink]="['terminarz']" routerLinkActive="router-link-active" >Terminarz</a>
+  <h2>Statystyki</h2>
+  <a [routerLink]="['oceny']" routerLinkActive="router-link-active" >Twoje Oceny</a>
+  <h2>Pozostałe</h2>
+  <a [routerLink]="['materialy_szkoleniowe']" routerLinkActive="router-link-active" >Materiały Szkoleniowe</a>
+  <div class="flexgrow1"></div>
+  <button type="button" (click)="onLogout()">Wyloguj się</button>
+</nav>
+<div class="content">
+<div class="topbar">
+</div>
+<router-outlet></router-outlet>
+</div>

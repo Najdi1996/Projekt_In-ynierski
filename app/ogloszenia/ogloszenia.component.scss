@@ -1,0 +1,97 @@
+div{
+    
+    &.ogloszenia{
+        display: flex;
+        position: relative;
+        padding: 10px;
+        width: 100%;
+        
+    }
+    &.oglosz1{
+        border:solid;
+        width:100rem;
+        height:10rem;
+        margin-left:5rem;
+        text-align: center;
+        margin-top: 2rem;
+        border-radius: 3rem;
+    }
+    &.oglosz2{
+        border:solid;
+        width:100rem;
+        height:10rem;
+        margin-left:5rem;
+        text-align: center;
+        margin-top: 2rem;
+        border-radius: 3rem;
+    }
+    &.oglosz3{
+        border:solid;
+        width:100rem;
+        height:10rem;
+        margin-left:5rem;
+        text-align: center;
+        margin-top: 2rem;
+        border-radius: 3rem;
+    }
+    &.oglosz4{
+        border:solid;
+        width:100rem;
+        height:10rem;
+        margin-left:5rem;
+        text-align: center;
+        margin-top: 2rem;
+        border-radius: 3rem;
+    }
+}
+img{
+    &.oglo1{
+        width:6.25rem;
+        height:6.25rem;
+        margin-left: -90rem;
+        margin-top: 2rem;
+    }
+    &.oglo2{
+        width:6.25rem;
+        height:6.25rem;
+        margin-left: -90rem;
+        margin-top: 2rem;
+    }
+    &.oglo3{
+        width:6.25rem;
+        height:6.25rem;
+        margin-left: -90rem;
+        margin-top: 2rem;
+    }
+    &.oglo4{
+        width:6.25rem;
+        height:6.25rem;
+        margin-left: -90rem;
+        margin-top: 2rem;
+    }
+    &.autor{
+        margin-top: -5rem;
+        width: 2rem;
+        height: 2rem;
+        border:2px solid;
+        border-radius:100%;
+        margin-left: 30rem;
+    }
+}
+span{
+    display: flex;
+    margin-top:-6rem;
+    margin-left:12rem;
+}
+p{
+    display: flex;
+    margin-top:2rem;
+    margin-left:12rem;
+    color:black;
+    font-size:0.8em;
+
+    &.wpis1{
+        margin-left: 66.5rem;
+        margin-top: -3.5rem;
+    }
+}

@@ -1,0 +1,51 @@
+div{
+        width:50rem;
+        height:30rem;
+        margin-left:10rem;
+        margin-top: 10rem;
+        
+}
+label{
+        border: 0.1rem solid;
+        width:40rem;
+        height:5rem;
+        margin-top: 2rem;
+}
+p{
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+
+}
+img{
+    margin-top:0.3rem;
+    width: 5rem;
+    height: 5rem;
+    margin-left: 2rem;
+    border: 0.1rem solid;
+
+    &.dok1{
+        margin-top: 0.1rem;
+    }
+
+    &.dok2{
+        margin-top: 0.1rem;
+    }
+    &.kurs{
+        float:right;
+        margin-right: 5rem;
+        margin-top: -30rem;
+        width: 30rem;
+        height:20rem;
+        border-radius: 5rem;
+    }
+}
+a{
+    width:6rem;
+    height: 3rem;
+    border: 0.1rem solid;
+    float:right;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    background-color: darkseagreen;
+    color:white;
+}

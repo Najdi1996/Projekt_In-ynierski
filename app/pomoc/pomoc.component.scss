@@ -1,0 +1,27 @@
+input{
+    width: 40rem;
+    height: 2.5rem;
+    color:grey;
+}
+div{
+    text-align:center;
+    margin-top: 5rem;
+
+    &.obrazek{
+        margin-top: 10rem;
+        text-align:center;
+    }
+    &.tekst{
+        margin-top:2rem;
+        margin-bottom: -3rem;
+    }
+}
+img{
+    &.pomoc{
+        border-radius:10%;
+    }
+}
+span{
+    color:blue;
+    font-size:2rem;
+}
